@@ -1,0 +1,35 @@
+https://pacman.fandom.com/wiki/Point_Configurations
+
+les classes : 
+	- Dot,
+		colour = enum,
+		power = bool,
+		score = int
+		type = enum
+	- Border,
+		door = bool
+	- Enemy,
+		colour = enum
+		behvour =
+		isAlive = bool
+		isChased = bool
+		score = int
+		speed = int
+	- Player,
+		colour = enum
+		isAlive = bool
+		isChasing = bool
+		NumLife = int
+		speed = int
+			function:
+				EatDot(dot)
+	- Board,
+		matrix = list
+		isInGame = bool
+		isGameOver = bool
+	-Game.
+		currentScore = int
+		currentLevel = int
+
+
+
