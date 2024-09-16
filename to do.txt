@@ -6,7 +6,7 @@ les classes :
 		power = bool,
 		score = int
 		type = enum
-	- Border,
+	- Wall,
 		door = bool
 	- Enemy,
 		colour = enum
